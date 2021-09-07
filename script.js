@@ -1,0 +1,96 @@
+
+
+$(document).ready(function(){
+    $(".note-d").click(function(){
+     $("#dnote-sound")[0].play();
+    });
+    $(".stop-audio").click(function(){
+        $("#dnote-sound")[0].pause();
+       });
+    $(".note-c").click(function(){
+     $("#cnote-sound")[0].play();
+    });
+    $(".stop-audio").click(function(){
+        $("#cnote-sound")[0].pause();
+       });
+    $(".note-a").click(function(){
+     $("#anote-sound")[0].play();
+    });
+    $(".stop-audio").click(function(){
+        $("#anote-sound")[0].pause();
+       });
+    $(".note-b").click(function(){
+    $("#bnote-sound")[0].play();
+    });
+    $(".stop-audio").click(function(){
+        $("#bnote-sound")[0].pause();
+       });
+    $(".note-e").click(function(){
+        $("#enote-sound")[0].play();
+        });
+        $(".stop-audio").click(function(){
+            $("#enote-sound")[0].pause();
+           });
+    $(".note-fsharp").click(function(){
+        $("#fsharp-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#fsharp-sound")[0].pause();
+       });
+       $(".note-csharp").click(function(){
+        $("#csharp-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#csharp-sound")[0].pause();
+       });
+       $(".note-gsharp").click(function(){
+        $("#gsharp-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#gsharp-sound")[0].pause();
+       });
+       $(".note-g").click(function(){
+        $("#gnote-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#gnote-sound")[0].pause();
+       });
+       $(".note-f").click(function(){
+        $("#fnote-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#fnote-sound")[0].pause();
+       });
+       $(".note-asharp").click(function(){
+        $("#asharp-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#asharp-sound")[0].pause();
+       });
+       $(".note-dsharp").click(function(){
+        $("#dsharp-sound")[0].play();
+       });
+       $(".stop-audio").click(function(){
+        $("#dsharp-sound")[0].pause();
+       });
+       $(".note-c").click(function(){
+        $("h3").animate({
+        opacity: 1
+        },4000);
+       });
+       $(".note-c").click(function(){
+        $("h3").animate({
+        opacity: 0
+        },3000);
+       });
+    });
+    $(document).ready(function(){
+        $(".keyboard").animate({
+        opacity: 1
+        },6000);
+        $(".sparkle").animate({
+            opacity: 1
+            },6000);
+    });
+
+    
