@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>musical keys app</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <audio id="dnote-sound">
+            <source src="./audio/distant-piano-serious-tone_140bpm_F_minor.wav" type="audio/mpeg">
+        </audio>
+        <audio id="anote-sound">
+            <source src="./audio/sad-keys-w-artifacts_140bpm_F_minor (1).wav" type="audio/mpeg">
+        </audio>
+        <audio id="cnote-sound">
+            <source src="./audio/dissolving-keys_140bpm_F_minor.wav" type="audio/mpeg">
+        </audio>
+        <audio id="bnote-sound">
+            <source src="./audio/crystalline-tears_140bpm_E_minor.wav" type="audio/mpeg">
+        </audio>
+        <audio id="fsharp-sound">
+            <source src="./audio/sadkeys.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="csharp-sound">
+            <source src="./audio/spacey-sad-piano-keys_120bpm_A_major.wav" type="audio/mpeg">
+        </audio>
+        <audio id="enote-sound">
+            <source src="./audio/fragments_140bpm_C_major.wav" type="audio/mpeg">
+        </audio>
+        <audio id="gsharp-sound">
+            <source src="./audio/teary-keys_140bpm_F_minor.wav" type="audio/mpeg">
+        </audio>
+        <audio id="asharp-sound">
+            <source src="./audio/lollipops-candys-chords-melody_90bpm_A_major.wav" type="audio/mpeg">
+        </audio>
+        <audio id="dsharp-sound">
+            <source src="./audio/melody.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="gnote-sound">
+            <source src="./audio/sad-piano-fast_140bpm_E_minor.wav" type="audio/mpeg">
+        </audio>
+        <audio id="fnote-sound">
+            <source src="./audio/confused_140bpm (1).wav" type="audio/mpeg">
+        </audio>
+       
+        <h1>Musical Keys App</h1>
+        <div class="container-fluid">
+        <div class="keyboard">
+        <button class="note-f" type="submit">F</button>
+        <button class="note-g" type="submit">G</button>
+        <button class="note-a" type="submit">A</button>
+        <button class="note-b" type="submit">B</button>
+        <button class="note-c" type="submit">C</button>
+        <button class="note-d" type="submit">D</button>
+        <button class="note-e" type="submit">E</button>
+        <button class="note-fsharp" type="submit">F#</button>
+        <button class="note-gsharp" type="submit">G#</button>
+        <button class="note-asharp" type="submit">A#</button>
+        <button class="note-csharp" type="submit">C#</button>
+        <button class="note-dsharp" type="submit">D#</button>
+        <img class="stop-audio" src="https://icon-library.com/images/stop-icon/stop-icon-19.jpg" height="30" width="30">
+        <img class="sparkle-icon" src="https://64.media.tumblr.com/427881a2407d919f7940a02921d02faf/tumblr_mykndbiB1I1relaado1_500.gif" height="50" width="60">
+        <h3 class="star-title">You're A Star!</h3>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
