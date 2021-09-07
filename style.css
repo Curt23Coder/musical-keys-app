@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./images/keyboard-app-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1600px;
+}
+h1{
+    color: #2fedee;
+    font-family: 'MonteCarlo', cursive;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.star-title{
+    color: rgb(255, 255, 255);
+    font-family: 'MonteCarlo', cursive; 
+    position: relative;
+    display: inline-block;
+    left: 180px;
+    top: -380px;
+    opacity: 0;
+}
+.container-fluid {
+    margin: 0px auto -600px auto;
+}
+.keyboard {
+    background-color: #00000063;
+    width: 418px;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+
+.sparkle-icon {
+    position: relative;
+    left: -260px;
+    top: -270px;
+    opacity: 1;
+}
+.stop-audio{
+    position: relative;
+    top: -265px;
+    left: -140px;
+}
+.note-c,.note-d,.note-e, .note-f, .note-g, .note-a, .note-b {
+    background-color: #33fefd42;
+    font-family: 'MonteCarlo', cursive;
+    height: 200px;
+    width: 60px;
+    font-size: 14px;
+    color: #fff;
+    
+}
+.note-fsharp, .note-gsharp, .note-asharp, .note-csharp, .note-dsharp{
+    position: relative;
+    top: 60px;
+    height: 120px;
+    width: 30px;
+    background-color: #2feee5;
+    font-family: 'MonteCarlo', cursive;
+    color: #fff;
+    font-size: 14px;
+}
+.note-c {
+    position: relative;
+    left: -17px;
+    z-index: 100;
+    height: 200px;
+    width: 60px;
+    top: 70px;
+}
+.note-d {
+    position: relative;
+    left: -21px;
+    top: 70px;
+}
+.note-e {
+    position: relative;
+    left: 359px;
+    height: 200px;
+    width: 60px;
+    top: -130px;
+    z-index: 1;
+}
+.note-f {
+    position: relative;
+    left: 1px;
+    top: 70px;
+}
+.note-g {
+    position: relative;
+    left: -3px;
+    top: 70px;
+}
+.note-a {
+    position: relative;
+    left: -7px;
+    top: 70px;
+}
+.note-b {
+    position: relative;
+    left: -12px;
+    top: 70px;
+}
+.note-fsharp {
+    position: relative;
+    top: -170px;
+    left: -20px;
+}
+.note-gsharp {
+    position: relative;
+    top: -170px;
+    left: 8px;
+}
+.note-asharp {
+    position: relative;
+    top: -170px;
+    left: 32px;
+}
+.note-csharp{
+    position: relative;
+    top: -170px;
+    left: 116px;
+    z-index: 120;
+}
+.note-dsharp{
+    position: relative;
+    top: -170px;
+    left: 142px;
+    z-index: 100;
+}
+@media (min-width: 240px) and (max-width: 460px){
+
+  .keyboard {
+      margin-left: -17px;
+  }
+}
+@media (min-width: 210px) and (max-width: 446px){
+
+    .keyboard {
+        margin-left: -17px;
+    }
+    h1 {
+        margin-left: 90px;
+    }
+  }
